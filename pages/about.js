@@ -1,11 +1,15 @@
+import Head from "next/head";
 
 
 function about() {
-    return (<div>
+    return (<>
+        <Head>
+            <title>Ninja List | About</title>
+            <meta name="keywords" content="ninjas" />
+        </Head>
         <header>
             <h1>About Adventure Perspectives</h1>
         </header>
-
         <main>
             <section>
                 <h2>Our Mission</h2>
@@ -37,7 +41,7 @@ function about() {
                 </ul>
             </section>
         </main>
-    </div>);
+    </>);
 }
 
 export default about;
