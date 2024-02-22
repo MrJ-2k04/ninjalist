@@ -26,6 +26,12 @@ export default function Home() {
             Wielding enchanted shurikens imbued with mystical powers, the Mystic Shuriken Sorcerer combines deadly precision with arcane energies. Each throw is a dance of magic and lethal precision.
           </p>
         </section>
+        <section>
+          <h3 className={styles.subtitle}>Stealth Phantom Assassin</h3>
+          <p className="text">
+            A ghost in the shadows, the Stealth Phantom Assassin strikes fear into the hearts of enemies. With a blade that seems to materialize from thin air, this ninja is a master of surprise attacks.
+          </p>
+        </section>
         <br />
         <Link href="/ninjas" className={styles.btn}>
           See Ninja Listing
